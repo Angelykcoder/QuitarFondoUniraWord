@@ -1,0 +1,82 @@
+2026-06-08 20:08:54,988 - [INFO] - Iniciando procesamiento de 11 imágenes.
+2026-06-08 20:08:55,005 - [CRITICAL] - Error catastrófico en la ejecución del script: El documento plantilla no contiene ninguna tabla detectable.
+Traceback (most recent call last):
+  File "c:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\generador.py", line 126, in main
+    raise ValueError("El documento plantilla no contiene ninguna tabla detectable.")
+ValueError: El documento plantilla no contiene ninguna tabla detectable.
+2026-06-08 20:12:21,255 - [INFO] - La plantilla no existe o no tiene tablas. Generando una plantilla automática ideal...
+2026-06-08 20:12:21,296 - [INFO] - Plantilla base generada correctamente en: C:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\FormatoImprimir.docx
+2026-06-08 20:12:21,298 - [INFO] - Iniciando procesamiento de 11 imágenes.
+2026-06-08 20:12:21,318 - [CRITICAL] - Error catastrófico en la ejecución: '_Row' object is not iterable
+Traceback (most recent call last):
+  File "c:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\generador.py", line 164, in main
+    celdas_disponibles = obtener_celdas_tabla(template_table)
+  File "c:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\generador.py", line 120, in obtener_celdas_tabla
+    return [cell for row in table.rows for cell in row]
+                                                   ^^^
+TypeError: '_Row' object is not iterable
+2026-06-08 20:12:34,195 - [INFO] - Iniciando procesamiento de 11 imágenes.
+2026-06-08 20:12:34,206 - [CRITICAL] - Error catastrófico en la ejecución: '_Row' object is not iterable
+Traceback (most recent call last):
+  File "c:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\generador.py", line 164, in main
+    celdas_disponibles = obtener_celdas_tabla(template_table)
+  File "c:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\generador.py", line 120, in obtener_celdas_tabla
+    return [cell for row in table.rows for cell in row]
+                                                   ^^^
+TypeError: '_Row' object is not iterable
+2026-06-08 20:13:31,383 - [INFO] - Iniciando procesamiento de 11 imágenes.
+2026-06-08 20:13:31,835 - [INFO] - Proceso finalizado con éxito. Archivo guardado en: C:\Users\LENOVO\Desktop\OUT\PRIMERO\Fotos_Finales.docx
+2026-06-08 20:16:21,695 - [INFO] - Iniciando procesamiento de 11 imágenes.
+2026-06-08 20:16:22,012 - [INFO] - Proceso finalizado con éxito. Archivo guardado en: C:\Users\LENOVO\Desktop\OUT\PRIMERO\Fotos_Finales.docx
+2026-06-08 20:19:41,494 - [INFO] - Configurando/Optimizando plantilla con márgenes máximos de impresión...
+2026-06-08 20:19:41,526 - [INFO] - Plantilla optimizada generada en: C:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\FormatoImprimir.docx
+2026-06-08 20:19:41,527 - [INFO] - Iniciando procesamiento optimizado de 11 imágenes.
+2026-06-08 20:19:41,846 - [INFO] - Proceso exitoso. Guardado en: C:\Users\LENOVO\Desktop\OUT\PRIMERO\Fotos_Finales.docx
+2026-06-09 07:23:17,822 - [INFO] - Configurando/Optimizando plantilla con márgenes máximos de impresión...
+2026-06-09 07:23:17,880 - [INFO] - Plantilla optimizada generada en: C:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\FormatoImprimir.docx
+2026-06-09 07:23:17,882 - [INFO] - Iniciando procesamiento optimizado de 11 imágenes.
+2026-06-09 07:23:18,435 - [INFO] - Proceso exitoso. Guardado en: C:\Users\LENOVO\Desktop\OUT\PRIMERO\Fotos_Finales.docx
+2026-06-09 07:25:00,926 - [INFO] - Configurando/Optimizando plantilla con márgenes máximos de impresión...
+2026-06-09 07:25:00,977 - [INFO] - Plantilla optimizada generada en: C:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\FormatoImprimir.docx
+2026-06-09 07:25:01,019 - [INFO] - Iniciando procesamiento optimizado de 10 imágenes.
+2026-06-09 07:25:01,692 - [INFO] - Proceso exitoso. Guardado en: C:\Users\LENOVO\Desktop\OUT\SEGUNDO\Fotos_Finales.docx
+2026-06-09 07:25:47,888 - [INFO] - Configurando/Optimizando plantilla con márgenes máximos de impresión...
+2026-06-09 07:25:47,943 - [INFO] - Plantilla optimizada generada en: C:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\FormatoImprimir.docx
+2026-06-09 07:25:47,986 - [INFO] - Iniciando procesamiento optimizado de 22 imágenes.
+2026-06-09 07:25:49,319 - [INFO] - Proceso exitoso. Guardado en: C:\Users\LENOVO\Desktop\OUT\TERCERO\Fotos_Finales.docx
+2026-06-09 07:26:22,497 - [INFO] - Configurando/Optimizando plantilla con márgenes máximos de impresión...
+2026-06-09 07:26:22,549 - [INFO] - Plantilla optimizada generada en: C:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\FormatoImprimir.docx
+2026-06-09 07:26:22,554 - [INFO] - Iniciando procesamiento optimizado de 16 imágenes.
+2026-06-09 07:26:23,551 - [INFO] - Proceso exitoso. Guardado en: C:\Users\LENOVO\Desktop\OUT\CUARTO\Fotos_Finales.docx
+2026-06-09 07:27:32,956 - [INFO] - Configurando/Optimizando plantilla con márgenes máximos de impresión...
+2026-06-09 07:27:33,012 - [INFO] - Plantilla optimizada generada en: C:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\FormatoImprimir.docx
+2026-06-09 07:27:33,056 - [INFO] - Iniciando procesamiento optimizado de 15 imágenes.
+2026-06-09 07:27:33,998 - [INFO] - Proceso exitoso. Guardado en: C:\Users\LENOVO\Desktop\OUT\QUINTO\Fotos_Finales.docx
+2026-06-09 07:27:59,631 - [INFO] - Configurando/Optimizando plantilla con márgenes máximos de impresión...
+2026-06-09 07:27:59,682 - [INFO] - Plantilla optimizada generada en: C:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\FormatoImprimir.docx
+2026-06-09 07:27:59,725 - [INFO] - Iniciando procesamiento optimizado de 12 imágenes.
+2026-06-09 07:28:00,498 - [INFO] - Proceso exitoso. Guardado en: C:\Users\LENOVO\Desktop\OUT\SEXTO\Fotos_Finales.docx
+2026-06-09 07:30:26,856 - [INFO] - Configurando/Optimizando plantilla con márgenes máximos de impresión...
+2026-06-09 07:30:26,910 - [INFO] - Plantilla optimizada generada en: C:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\FormatoImprimir.docx
+2026-06-09 07:30:26,913 - [INFO] - Iniciando procesamiento optimizado de 20 imágenes.
+2026-06-09 07:30:28,151 - [INFO] - Proceso exitoso. Guardado en: C:\Users\LENOVO\Desktop\OUT\STAGE\Fotos_Finales.docx
+2026-06-09 07:38:52,629 - [INFO] - Configurando/Optimizando plantilla con márgenes máximos de impresión...
+2026-06-09 07:38:52,683 - [INFO] - Plantilla optimizada generada en: C:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\FormatoImprimir.docx
+2026-06-09 07:38:52,685 - [INFO] - Iniciando procesamiento optimizado de 20 imágenes.
+2026-06-09 07:38:53,649 - [INFO] - Proceso exitoso. Guardado en: C:\Users\LENOVO\Desktop\OUT\STAGE\Fotos_Finales.docx
+2026-06-11 11:06:07,887 - [INFO] - Configurando/Optimizando plantilla con márgenes máximos de impresión...
+2026-06-11 11:06:07,960 - [INFO] - Plantilla optimizada generada en: C:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\FormatoImprimir.docx
+2026-06-11 11:06:07,964 - [INFO] - Iniciando procesamiento optimizado de 29 imágenes.
+2026-06-11 11:06:09,359 - [INFO] - Proceso exitoso. Guardado en: C:\Users\LENOVO\Desktop\OUT\STAGE\Fotos_Finales.docx
+2026-06-15 08:39:49,900 - [INFO] - Configurando/Optimizando plantilla con márgenes máximos de impresión...
+2026-06-15 08:39:49,986 - [INFO] - Plantilla optimizada generada en: C:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\FormatoImprimir.docx
+2026-06-15 08:39:49,992 - [INFO] - Iniciando procesamiento optimizado de 20 imágenes.
+2026-06-15 08:39:50,989 - [INFO] - Proceso exitoso. Guardado en: C:\Users\LENOVO\Desktop\OUT\STAGE\Fotos_Finales.docx
+2026-06-16 08:16:09,274 - [INFO] - Configurando/Optimizando plantilla con márgenes máximos de impresión...
+2026-06-16 08:16:09,323 - [INFO] - Plantilla optimizada generada en: C:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\FormatoImprimir.docx
+2026-06-16 08:16:09,331 - [INFO] - Iniciando procesamiento optimizado de 20 imágenes.
+2026-06-16 08:16:10,190 - [INFO] - Proceso exitoso. Guardado en: C:\Users\LENOVO\Desktop\OUT\STAGE\Fotos_Finales.docx
+2026-06-16 09:55:35,235 - [INFO] - Configurando/Optimizando plantilla con márgenes máximos de impresión...
+2026-06-16 09:55:35,329 - [INFO] - Plantilla optimizada generada en: C:\Users\LENOVO\Desktop\GENERADOR IMPRESIONES\FormatoImprimir.docx
+2026-06-16 09:55:35,336 - [INFO] - Iniciando procesamiento optimizado de 31 imágenes.
+2026-06-16 09:55:36,910 - [INFO] - Proceso exitoso. Guardado en: C:\Users\LENOVO\Desktop\OUT\STAGE\Fotos_Finales.docx
